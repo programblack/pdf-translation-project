@@ -1,4 +1,1 @@
-PyPDF2
-translate
-arabic_reshaper
-bidi
+نمونه اولیه استفاده شخصی
