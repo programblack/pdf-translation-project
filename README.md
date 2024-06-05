@@ -1,44 +1,17 @@
-# PDF Translation Project
+# ترجمه و تبدیل متن PDF به فارسی
 
-This project is a simple Python script to translate text from a PDF file into Persian (Farsi) using the Google Translate API.
+این اسکریپت برای استخراج متن از فایل PDF، ترجمه آن به فارسی و سپس ایجاد یک فایل PDF جدید با متن ترجمه شده طراحی شده است.
 
-## Requirements
+## پیش‌نیازها
 
-- Python 3.x
+برای اجرای این اسکریپت، به کتابخانه‌های زیر نیاز دارید:
 - PyPDF2
 - translate
+- reportlab
 - arabic_reshaper
-- bidi
+- python-bidi
+- tkinter
 
-## Installation
-
-1. Clone the repository:
-   git clone https://github.com/programblack/pdf-translation-project.git
-
-
-2. Install the required Python packages:
-   pip install -r requirements.txt
-
-
-
-## Usage
-
-1. Place your PDF file in the same directory as the script.
-2. Run the script using the following command:
-   python translate_pdf.py
-
-3. The translated text will be printed to the console.
-
-## Contributing
-
-Contributions are welcome! If you would like to contribute to this project, please follow these steps:
-
-1. Fork the repository.
-2. Create a new branch (`git checkout -b feature/your-feature-name`).
-3. Commit your changes (`git commit -am 'Add new feature'`).
-4. Push to the branch (`git push origin feature/your-feature-name`).
-5. Create a new Pull Request.
-
-## License
-
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+شما می‌توانید این کتابخانه‌ها را با استفاده از pip نصب کنید:
+```bash
+pip install PyPDF2 translate reportlab arabic_reshaper python-bidi tk
